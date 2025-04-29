@@ -1,7 +1,7 @@
 {
-  "name": "control-lista",
+  "name": "prog6bt1",
   "version": "1.0.0",
-  "description": "BackEnd Control de Pase de Lista",
+  "description": "BackEnd Administracion de un Rancho",
   "main": "dist/server.js",
   "scripts": {
     "build-ts": "tsc",
@@ -12,7 +12,7 @@
     "watch-ts": "tsc -w"
   },
   "keywords": [],
-  "author": "M1 Prog4c",
+  "author": "Prog6bT1",
   "license": "GNU",
   "dependencies": {
     "body-parser": "^1.20.3",

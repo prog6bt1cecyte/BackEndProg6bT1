@@ -1,20 +1,20 @@
 import * as mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
-export interface IMateria extends mongoose.Document {  
-    materia: string;
+export interface ICorral extends mongoose.Document {  
+    corral: string;
 }
 
- const MateriaSchema = new Schema(
+ const CorralSchema = new Schema(
     {
-        materia: {
+        corral: {
             type: String,
-            required: [true, 'materia required'],
+            required: [true, 'corral required'],
             unique: true
         }
     }
     
  );
 
-const Materia = mongoose.model<IMateria>("Materia", MateriaSchema);
-export default Materia;
+const Corral = mongoose.model<ICorral>("Corral", CorralSchema);
+export default Corral;
